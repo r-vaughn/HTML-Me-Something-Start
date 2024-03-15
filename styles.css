@@ -1,1 +1,70 @@
 /* Write your CSS here! */
+
+body {
+    margin: 8px;
+    display: block;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+#leftColumn {
+    float: left; 
+    width: 34%;
+    padding: 10px;
+    color: black;
+    background-color:#EFEEEE;
+}
+
+#rightColumn {
+    float: right; 
+    width: 60%;
+    padding: 10px;
+    border-right-width: 0cap;
+    color:black;
+    background-color: #EFEEEE;
+}
+
+#mainHeading {
+    color: red;
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#personalInfo { 
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h2 {
+    text-align: center;
+}
+
+.funParagraph {
+    color: green;
+    text-align: justify;
+    font-size: 16px;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    height: 60px; 
+    padding-bottom: 30px;
+    background-color: #EFEEEE;  
+    text-align: center;
+}
